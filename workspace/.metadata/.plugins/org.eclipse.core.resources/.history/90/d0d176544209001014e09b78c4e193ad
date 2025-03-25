@@ -1,0 +1,17 @@
+package com.simple.ex03;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class MainClass {
+	public static void main(String[] args) {
+		GenericXmlApplicationContext ctx = 
+				new GenericXmlApplicationContext("application-context.xml");
+	
+		ctx.getBean(DataSource.class)
+	
+	
+	
+	}
+}

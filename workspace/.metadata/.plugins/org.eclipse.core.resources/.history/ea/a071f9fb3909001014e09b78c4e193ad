@@ -1,0 +1,10 @@
+package com.simple.ex01;
+
+public class MainClass {
+	public static void main(String args[]) {
+//		Hello h = new Hello();
+//		h.sayHello();
+		
+		//스프링이 추구하는 방식으로
+	}
+}

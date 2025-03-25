@@ -1,0 +1,10 @@
+package com.simple.ex04;import javax.print.Doc;
+
+public class Printer {
+	private Document document;
+	
+	//생성자
+	public Printer(Document document) {
+		this.document = document;
+	}
+}

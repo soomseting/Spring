@@ -1,0 +1,11 @@
+package com.simple.ex02;
+
+public class Chef {
+	public static void main(String[] args) {
+
+	}
+
+	public void cooking() {
+		System.out.println("cooking!");		
+	}
+}
