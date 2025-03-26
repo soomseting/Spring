@@ -9,7 +9,7 @@ import com.simple.ex02.Hotel;
 import com.simple.ex03.DataSource;
 import com.simple.ex03.MemberDAO;
 
-@Configuration // 스프링의 설정파일로 쓰겠다는 뜻.
+@Configuration // 스프링의 설정파일로 쓰겠다는 뜻. Configuration은 설정파일이야~
 public class JavaConfig {
 
 	// <bean class=com.simple.ex01.Hello" id="gildong"/>
