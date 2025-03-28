@@ -1,28 +1,36 @@
 package com.simple.command;
 
 public class ScoreVO {
+	private int sno;
 	private String name;
-	private int kor;
-	private int eng;
-	private int math;
-
-	
-	
-	@Override
-	public String toString() {
-		return "ScoreVO [name=" + name + ", kor=" + kor + ", eng=" + eng + ", math=" + math + "]";
-	}
+	private String kor;
+	private String eng;
+	private String math;
 
 	public ScoreVO() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public ScoreVO(String name, int kor, int eng, int math) {
+	public ScoreVO(int sno, String name, String kor, String eng, String math) {
 		super();
+		this.sno = sno;
 		this.name = name;
 		this.kor = kor;
 		this.eng = eng;
 		this.math = math;
+	}
+
+	@Override
+	public String toString() {
+		return "ScoreVO [sno=" + sno + ", name=" + name + ", kor=" + kor + ", eng=" + eng + ", math=" + math + "]";
+	}
+
+	public int getSno() {
+		return sno;
+	}
+
+	public void setSno(int sno) {
+		this.sno = sno;
 	}
 
 	public String getName() {
@@ -33,29 +41,28 @@ public class ScoreVO {
 		this.name = name;
 	}
 
-	public int getKor() {
+	public String getKor() {
 		return kor;
 	}
 
-	public void setKor(int kor) {
+	public void setKor(String kor) {
 		this.kor = kor;
 	}
 
-	public int getEng() {
+	public String getEng() {
 		return eng;
 	}
 
-	public void setEng(int eng) {
+	public void setEng(String eng) {
 		this.eng = eng;
 	}
 
-	public int getMath() {
+	public String getMath() {
 		return math;
 	}
 
-	public void setMath(int math) {
+	public void setMath(String math) {
 		this.math = math;
 	}
-	
-	
+
 }

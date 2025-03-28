@@ -16,7 +16,7 @@
 		국어: ${vo.kor }
 		영어: ${vo.eng }
 		수학: ${vo.math }
-		<button type="button" onclick="location.href='scoreDelete?sno=${status.index}';">삭제</button>
+		<button type="button" onclick="location.href='scoreDelete?sno=${vo.sno}';">삭제</button>
 		<br>
 	</c:forEach>
 	<br>
